@@ -9,6 +9,8 @@ page '/*.xml', layout: false
 page '/*.json', layout: false
 page '/*.txt', layout: false
 
+activate :directory_indexes
+
 # With alternative layout
 # page "/path/to/file.html", layout: :otherlayout
 
@@ -38,10 +40,10 @@ end
 # Build-specific configuration
 configure :build do
   # Minify CSS on build
-  activate :minify_css
+  # activate :minify_css
 
   # Minify Javascript on build
-  activate :minify_javascript
+  # activate :minify_javascript
 
   # Enable cache buster
   activate :asset_hash
