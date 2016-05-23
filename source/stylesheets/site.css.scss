@@ -1,9 +1,7 @@
 @charset "utf-8";
-@import "normalize";
+@import "susy";
+// @import "bourbon";
 
-body {
-  background: #ECC561;
-  text-align: center;
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 1em;
-}
+@import "base/normalize";
+@import "base/grid";
+@import "base/typography";
