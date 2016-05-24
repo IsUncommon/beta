@@ -1,6 +1,28 @@
 .case-study-groupon {
   $primary-color: $red-pink;
 
+  .hero-section {
+    background-image: image-url("groupon/hero.jpg");
+  }
+
+  .article-title,
+  .article-subtitle {
+    color: $white;
+    margin-top: 16px;
+    margin-bottom: 0;
+    padding: 0;
+  }
+
+  .article-title {
+    @include span(7);
+    line-height: 0.9em;
+  }
+
+  .article-subtitle {
+    @include span(6);
+  }
+
+  .breadcrumbs a,
   .article-metadata h2 {
     color: $primary-color;
   }

@@ -1,13 +1,18 @@
 .case-study-myntra {
   $primary-color: $orange-yellow;
 
-  header h1 {
+  .hero-section {
+    background-image: image-url("myntra/hero.jpg");
+  }
+
+  .article-title {
     font-family: $sans;
     font-size: 180px;
     text-transform: uppercase;
     word-spacing: -0.1em;
     letter-spacing: -0.02em;
     line-height: 96px;
+    margin-top: 18px;
 
     &::first-line {
       font-size: 120px;
@@ -27,6 +32,11 @@
     }
   } 
 
+  .breadcrumbs {
+    color: $black;
+  }
+
+  .breadcrumbs a,
   .article-metadata h2 {
     color: $primary-color;
   }

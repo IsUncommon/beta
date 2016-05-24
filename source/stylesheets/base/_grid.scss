@@ -11,13 +11,14 @@ $susy: (
   debug: (
     image: show,
     output: overlay,
-    color: rgba(orange, 0.2)
+    color: rgba(blue, 0.2)
   )
 );
 
 @include border-box-sizing;
 
-main {
+.article-header,
+.article-content {
   @include container;
+  padding: 0 gutter();
 }
-
