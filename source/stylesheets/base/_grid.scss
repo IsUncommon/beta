@@ -6,7 +6,12 @@ $susy: (
   gutter-position: outside,
   box-sizing: border-box,
   container: 960px,
-  container-position: center
+  container-position: center,
+
+  debug: (
+    image: show,
+    output: overlay,
+  )
 );
 
 @include border-box-sizing;
