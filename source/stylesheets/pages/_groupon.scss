@@ -1,11 +1,12 @@
 .case-study-groupon {
-  $primary-color: #f2396d;
+  $primary-color: $red-pink;
 
   .article-metadata h2 {
     color: $primary-color;
   }
 
-  .banner {
+  .banner,
+  .article-section-caption h2::after {
     background: $primary-color;
   }
 }

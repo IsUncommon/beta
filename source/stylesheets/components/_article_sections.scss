@@ -1,5 +1,5 @@
 .article-section {
-  @include span(12)
+  @include span(12);
   position: relative;
   padding: 50px 0;
   clear: both;
@@ -35,7 +35,7 @@
 }
 
 .article-metadata {
-  @include prefix(3 wide);
+  @include prefix(3);
 
   &::before {
     left: span(3 wide);
@@ -43,7 +43,6 @@
 
   div {
     @include span(3 of 7);
-    // margin-right: gutter();
   }
 
   h2 {

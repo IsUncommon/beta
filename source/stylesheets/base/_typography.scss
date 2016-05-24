@@ -1,11 +1,14 @@
+$sans: "Avenir Next", sans-serif; 
+$serif: "Chaparral Pro", serif;
+
 body {
-  font-family: "Avenir Next", sans-serif;
+  font-family: $sans;
   font-size: 16px;
   color: $gray-dark;
 }
 
 h1 {
-  font-family: "Chaparral Pro", serif;
+  font-family: $serif;
   font-size: 60px;
   font-weight: 700;
   line-height: 0.9;

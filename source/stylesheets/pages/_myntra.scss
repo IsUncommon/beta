@@ -1,0 +1,38 @@
+.case-study-myntra {
+  $primary-color: $orange-yellow;
+
+  header h1 {
+    font-family: $sans;
+    font-size: 180px;
+    text-transform: uppercase;
+    word-spacing: -0.1em;
+    letter-spacing: -0.02em;
+    line-height: 96px;
+
+    &::first-line {
+      font-size: 120px;
+    }
+
+    strong {
+      font-weight: 700;
+      font-size: 56px;
+      color: $primary-color;
+    }
+
+    em {
+      font-weight: 400;
+      font-family: $serif;
+      font-size: 56px;
+      text-transform: lowercase;
+    }
+  } 
+
+  .article-metadata h2 {
+    color: $primary-color;
+  }
+
+  .banner,
+  .article-section-caption h2::after {
+    background: $primary-color;
+  }
+}
