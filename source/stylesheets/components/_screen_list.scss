@@ -10,10 +10,12 @@
 
 .iphone-screen-list {
   li {
-    margin: 0 36px 36px 0;
+    &:nth-child(3n+1) {
+      margin-left: -26px;
+    }
 
     &:nth-child(3n) {
-      margin-right: 0;
+      margin-right: -30px;
     }
   }
 }

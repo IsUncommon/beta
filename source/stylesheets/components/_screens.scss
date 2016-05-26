@@ -1,12 +1,11 @@
 .iphone-screen {
   display: block;
   position: relative;
-  overflow: hidden;
-  width: 168px;
-  height: 342px;
-  padding: 40px 11px;
+  width: 220px;
+  height: 395px;
+  margin: -5px;
+  padding: 48px 40px;
   background: transparent image-url("devices/iphone_small_black.svg") no-repeat top left;
-  background-size: auto 100%;
 
   img {
     height: 260px;
@@ -14,9 +13,10 @@
 }
 
 .iphone-screen-large {
-  width: 292px;
-  height: 594px;
-  padding: 72px 19px;
+  width: 402px;
+  height: 704px;
+  padding: 90px 78px;
+  margin: -20px -36px 0 0;
   background-image: image-url("devices/iphone_large_white.svg");
 
   img {
