@@ -25,23 +25,25 @@
 .article-section {
   @include span(12);
   position: relative;
-  padding: 50px 0;
+  padding: 0;
   clear: both;
 
-  &::before {
-    content: "";
-    position: absolute;
-    bottom: -2px;
-    left: span(2 wide);
-    width: 60px;
-    height: 4px;
-    background: black;
-  }
-
+  &::before,
   &::after {
     content: "";
-    display: table;
+    margin: 50px 0 50px span(2 wide);
+    border-left: solid 60px $black;
+    height: 4px;
+    display: block;
     clear: both;
+  }
+
+  &::before {
+    display: none;
+  }
+
+  &:last-child::after {
+    display: none;
   }
 }
 
@@ -49,6 +51,10 @@
 .article-text {
   @include prefix(2);
   @include suffix(2);
+
+  &::after {
+    margin-left: 0;
+  }
 }
 
 .article-header {
@@ -75,11 +81,14 @@
   @include prefix(3);
 
   &::before {
-    left: span(3 wide);
+    display: block;
+    height: 8px;
+    margin-left: 0;
   }
 
   div {
     @include span(3 of 7);
+    padding-bottom: 50px;
   }
 
   h2 {

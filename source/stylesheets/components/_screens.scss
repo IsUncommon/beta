@@ -4,7 +4,7 @@
   width: 220px;
   height: 395px;
   margin: -5px;
-  padding: 48px 40px;
+  padding: 50px 0 0 39px;
   background: transparent image-url("devices/iphone_small_black.svg") no-repeat top left;
 
   img {
@@ -15,7 +15,7 @@
 .iphone-screen-large {
   width: 402px;
   height: 704px;
-  padding: 90px 78px;
+  padding: 90px 0 0 78px;
   margin: -20px -36px 0 0;
   background-image: image-url("devices/iphone_large_white.svg");
 
@@ -23,5 +23,9 @@
     height: 450px;
     border: solid 2px $black;
     border-radius: 3px;
+  }
+
+  figcaption {
+    text-align: center;
   }
 }

@@ -54,7 +54,7 @@
   @include span(last 8);
 }
 
-.article-screen .screen {
+.article-screen-large .screen {
   @include span(7);
 
   .iphone-screen {
