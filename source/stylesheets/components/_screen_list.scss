@@ -1,0 +1,24 @@
+.image-list {
+  margin: 0;
+  padding: 0;
+
+  li {
+    display: block;
+    float: left;
+  }
+}
+
+.iphone-image-list {
+  li {
+    margin: 21px;
+    width: 168px;
+    height: 342px;
+    overflow: hidden;
+    background: transparent image-url("devices/iphone_small_black.svg") no-repeat top left;
+    padding: 40px 11px;
+  }
+
+  .iphone-image img {
+    height: 260px;
+  }
+}
