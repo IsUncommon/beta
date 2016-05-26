@@ -35,11 +35,11 @@
     font-size: 14px;
   }
 
-  .article-image-large & {
+  .article-screen-large & {
 
   }
 
-  .article-image-slideshow & {
+  .article-screen-slideshow & {
     @include pre(4);
     text-align: center;
 
@@ -50,6 +50,15 @@
   }
 }
 
-.article-image-list .image-list{
-  @include span(8);
+.article-screen-list .screen-list {
+  @include span(last 8);
 }
+
+.article-screen .screen {
+  @include span(7);
+
+  .iphone-screen {
+    float: right;
+  }
+}
+

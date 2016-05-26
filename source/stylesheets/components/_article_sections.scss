@@ -48,7 +48,7 @@
 .article-metadata,
 .article-text {
   @include prefix(2);
-  @include suffix(2);  
+  @include suffix(2);
 }
 
 .article-header {

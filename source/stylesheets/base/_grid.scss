@@ -3,15 +3,14 @@ $susy: (
   gutters: 1/3,
   math: fluid,
   output: float,
-  gutter-position: outside,
+  gutter-position: after,
   box-sizing: border-box,
   container: 960px,
   container-position: center,
 
   debug: (
-    image: show,
-    output: overlay,
-    color: rgba(blue, 0.2)
+    // image: show,
+    color: rgba(black, 0.05)
   )
 );
 
