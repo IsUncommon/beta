@@ -5,7 +5,7 @@ $susy: (
   output: float,
   gutter-position: after,
   box-sizing: border-box,
-  container: 960px,
+  container: 1020px,
   container-position: center,
 
   debug: (
@@ -16,6 +16,7 @@ $susy: (
 
 @include border-box-sizing;
 
+.container,
 .article-header,
 .article-content {
   @include container;

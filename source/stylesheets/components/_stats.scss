@@ -1,0 +1,43 @@
+.article-section-stats {
+  display: block;
+  background: $orange-yellow;
+  color: $white;
+  // margin-top: -54px;
+  margin: 40px 0;
+
+  .stats-container {
+    @extend .container;
+  }
+
+  &::after {
+    display: none;
+  }
+
+  li {
+    display: block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    @include span(3);
+    font-size: 14px;
+    line-height: 1em;
+    text-transform: uppercase;
+
+    &:nth-child(4n) {
+      @include span(last 3);
+    }
+
+    strong {
+      font-size: 120px;
+      font-weight: 600;
+      display: block;
+      line-height: 1em;
+    }
+
+    span {
+      font-size: 30px;
+      font-weight: 400;
+      text-transform: lowercase;
+    }
+  }
+}

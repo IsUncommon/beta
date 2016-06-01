@@ -1,0 +1,10 @@
+.image-fullwidth {
+  display: block;
+  width: 100%;
+
+  .article-text & {
+    position: relative;
+    width: span(12 of 8);
+    margin: 20px span(-2 wide of 8);
+  }
+}
