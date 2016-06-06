@@ -18,7 +18,7 @@ $susy: (
 
 .container,
 .article-header,
-.article-content {
+.article-container {
   @include container;
   padding: 0 gutter();
 }

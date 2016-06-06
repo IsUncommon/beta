@@ -1,22 +1,21 @@
-.article-section-stats {
+.article-stats {
   display: block;
+  position: relative;
   background: $orange-yellow;
   color: $white;
-  // margin-top: -54px;
-  margin: 40px 0;
-
-  .stats-container {
-    @extend .container;
-  }
+  clear: both;
+  // margin-top: -50px;
+  top: -54px;
+  z-index: 20;
 
   &::after {
-    display: none;
+    height: 0;
   }
 
   li {
     display: block;
     list-style-type: none;
-    margin: 0;
+    margin: 40px 0;
     padding: 0;
     @include span(3);
     font-size: 14px;

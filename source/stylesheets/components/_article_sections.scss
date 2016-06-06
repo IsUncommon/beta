@@ -23,19 +23,23 @@
 }
 
 .article-section {
-  @include span(12);
   position: relative;
-  padding: 0;
   clear: both;
+  
+  > .content {
+    @include span(12);
+  }
 
   &::before,
   &::after {
+    display: block;
+    float: left;
+    clear: both;
+
     content: "";
     margin: 50px 0 50px span(2 wide);
     border-left: solid 60px $black;
     height: 4px;
-    display: block;
-    clear: both;
   }
 
   &::before {
@@ -45,10 +49,20 @@
   &:last-child::after {
     display: none;
   }
+
+  &.article-metadata::before {
+    display: block;
+    height: 8px;
+    margin-left: span(3 wide);
+  }
+
+  &.article-metadata::after {
+    margin-left: span(3 wide);
+  }
 }
 
-.article-metadata,
-.article-text {
+.article-metadata .content,
+.article-text .content {
   @include prefix(2);
   @include suffix(2);
 
@@ -78,17 +92,14 @@
 }
 
 .article-metadata {
-  @include prefix(3);
+  margin-top: 50px;
+}
 
-  &::before {
-    display: block;
-    height: 8px;
-    margin-left: 0;
-  }
+.article-metadata .content {
+  @include prefix(3);
 
   div {
     @include span(3 of 7);
-    padding-bottom: 50px;
   }
 
   h2 {
@@ -109,7 +120,7 @@
   }
 }
 
-.article-text {
+.article-text .content {
   ul {
     margin: 20px 0;
     padding: 0;
