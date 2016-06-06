@@ -47,7 +47,7 @@
   }
 
   &:last-child::after {
-    display: none;
+    height: 0;
   }
 
   &.article-metadata::before {

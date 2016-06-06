@@ -12,6 +12,14 @@
   }
 }
 
+.iphone-screen-white {
+  background-image: image-url("devices/iphone_small_white.svg");
+
+  img {
+    border: solid 2px $black;
+  }
+}
+
 .iphone-screen-large {
   width: 402px;
   height: 704px;

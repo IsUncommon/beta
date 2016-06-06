@@ -1,0 +1,56 @@
+body.helping_fisdom {
+  background: $gray-xdark;
+}
+
+.case-study-fisdom {
+  $primary-color: $red-pink;
+  color: $white;
+
+  .hero-section {
+    // background-image: image-url("groupon/hero.jpg");
+  }
+
+  .article-title,
+  .article-subtitle {
+    margin-top: 16px;
+    margin-bottom: 0;
+    padding: 0;
+    font-family: $sans;
+  }
+
+  .article-title {
+    @include span(7);
+    font-size: 76px;
+    font-weight: 800;
+    line-height: 1.1;
+
+    color: $white;
+    margin-top: 16px;
+    margin-bottom: 0;
+    padding: 0;
+  }
+
+  .article-subtitle {
+    @include span(6);
+    font-size: 21px;
+    line-height: 1.5em;
+    font-weight: 400;
+  }
+
+  .breadcrumbs a,
+  .article-metadata h2 {
+    color: $primary-color;
+  }
+
+  .banner,
+  .article-section-caption h2::after {
+    background: $primary-color;
+  }
+
+  .article-section {
+    &::before,
+    &::after {
+      border-left-color: $white;
+    }
+  }
+}
