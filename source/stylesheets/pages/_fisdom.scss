@@ -1,5 +1,9 @@
 body.helping_fisdom {
   background: $gray-xdark;
+
+  #home-link a::before {
+    background: $red-pink;
+  }
 }
 
 .case-study-fisdom {

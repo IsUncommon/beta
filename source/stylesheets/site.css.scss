@@ -7,6 +7,8 @@
 @import "base/colors";
 @import "base/typography";
 
+@import "components/home_link";
+
 @import "components/article_sections";
 @import "components/article_components";
 @import "components/article_images";
@@ -17,6 +19,7 @@
 
 @import "components/stats";
 
+@import "pages/home";
 @import "pages/groupon";
 @import "pages/myntra";
 @import "pages/fisdom";

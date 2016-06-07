@@ -1,0 +1,35 @@
+.uncommon-intro {
+  padding-top: 20px;
+  
+  .content {
+    display: block;
+    position: relative;
+    padding: 180px 269px;
+    color: $white;
+
+    perspective: 600;
+    perspective-origin: 50% 9%;
+
+    &::before {
+      content: "";
+      display: block;
+      position: absolute;
+      top: 0px;
+      right: 0;
+      bottom: 0px;
+      left: 0;
+      z-index: -1;
+      background: $black;
+      border-radius: 20px;
+      // transform: rotateX(20deg) rotateY(20deg);
+      // transform-origin: 0% 0%;
+
+      transform-origin: 0% 0% 0px; 
+      transform: scale(1) scaleZ(1) rotateX(10deg) rotateY(20deg);
+    }
+
+    a {
+      color: tomato;
+    }
+  }
+}

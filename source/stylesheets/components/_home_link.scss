@@ -1,0 +1,35 @@
+#home-link {
+  display: block;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  @include container;
+  height: 0;
+  z-index: 10;
+
+  a {
+    padding: 16px 48px;
+    display: block;
+    float: left;
+    position: relative;
+    color: $white;
+    text-decoration: none;
+    font-size: 21px;
+    font-weight: 500;
+    font-family: $sans;
+
+    &::before {
+      content: "";
+      display: block;
+      position: absolute;
+      top: -20px;
+      right: 0;
+      bottom: -5px;
+      left: 0;
+      z-index: -1;
+      background: $tomato;
+
+      transform: skewY(-3deg);
+    }
+  }
+}
