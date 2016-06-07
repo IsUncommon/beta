@@ -7,9 +7,6 @@
     padding: 180px 269px;
     color: $white;
 
-    perspective: 600;
-    perspective-origin: 50% 9%;
-
     &::before {
       content: "";
       display: block;
@@ -21,11 +18,7 @@
       z-index: -1;
       background: $black;
       border-radius: 20px;
-      // transform: rotateX(20deg) rotateY(20deg);
-      // transform-origin: 0% 0%;
-
-      transform-origin: 0% 0% 0px; 
-      transform: scale(1) scaleZ(1) rotateX(10deg) rotateY(20deg);
+      transform: rotate(5deg) scale(0.913) skew(12deg);
     }
 
     a {
