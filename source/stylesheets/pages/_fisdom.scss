@@ -11,7 +11,7 @@ body.helping_fisdom {
   color: $white;
 
   .hero-section {
-    // background-image: image-url("groupon/hero.jpg");
+    background-image: image-url("fisdom/hero.jpg");
   }
 
   .article-title,
@@ -24,11 +24,11 @@ body.helping_fisdom {
 
   .article-title {
     @include span(7);
-    font-size: 76px;
+    font-size: 54px;
     font-weight: 800;
     line-height: 1.1;
 
-    color: $white;
+    color: $black;
     margin-top: 16px;
     margin-bottom: 0;
     padding: 0;
@@ -39,6 +39,11 @@ body.helping_fisdom {
     font-size: 21px;
     line-height: 1.5em;
     font-weight: 400;
+    color: $black;
+  }
+
+  .breadcrumbs {
+    color: $black;
   }
 
   .breadcrumbs a,
