@@ -11,23 +11,9 @@
 }
 
 .iphone-screen-list {
-  @include span(8);
-  
   li {
     &:nth-child(3n+1) {
-      margin-left: -26px;
-    }
-
-    &:nth-child(3n) {
-      margin-right: -30px;
-    }
-  }
-}
-
-.iphone-screen-list-large {
-  li {
-    &:nth-child(3n+1) {
-      margin-left: -26px;
+      margin-left: -30px;
     }
 
     &:nth-child(3n) {

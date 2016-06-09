@@ -22,14 +22,14 @@
 
 .iphone-screen-large {
   width: 402px;
-  // width: 362px;
   height: 704px;
-  padding: 90px 0 0 78px;
-  margin: -20px -36px 0 0;
+  padding: 90px 66px 0 78px;
+  margin: -20px -40px 0 -40px;
   background-image: image-url("devices/iphone_large_white.svg");
 
   img {
-    height: 450px;
+    height: 454px;
+    width: auto;
     border: solid 2px $black;
     border-radius: 3px;
   }
