@@ -2,12 +2,12 @@ body.helping_fisdom {
   background: $gray-xdark;
 
   #home-link a::before {
-    background: $red-pink;
+    background: $blue-with-a-hint-of-purple;
   }
 }
 
 .case-study-fisdom {
-  $primary-color: $red-pink;
+  $primary-color: $blue-with-a-hint-of-purple;
   color: $white;
 
   .hero-section {
@@ -46,20 +46,31 @@ body.helping_fisdom {
     color: $black;
   }
 
-  .breadcrumbs a,
-  .article-metadata h2 {
+  .breadcrumbs a {
     color: $primary-color;
+  }
+
+  .article-metadata h2 {
+    color: $white;
   }
 
   .banner,
   .article-section-caption h2::after {
-    background: $primary-color;
+    background: $red-pink;
   }
 
   .article-section {
     &::before,
     &::after {
+      border-left-color: transparent;
+    }
+  }
+
+  .article-section.article-metadata {
+    &::before,
+    &::after {
       border-left-color: $white;
     }
   }
+
 }

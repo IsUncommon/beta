@@ -14,10 +14,20 @@
 .article-section-caption {
   @include span(4);
 
+  .article-screen-list-large & {
+    @include span(3);
+  }
+
+  .screen-list + &  {
+    @include last;
+  }
+
+
   h2 {
     display: block;
     position: relative;
     font-size: 18px;
+    line-height: 27px;
     margin-bottom: 24px;
 
     &::after {
@@ -51,7 +61,16 @@
 }
 
 .article-screen-list .screen-list {
-  @include span(last 8);
+  @include span(8);
+}
+
+.article-screen-list .screen-list-large {
+  @include span(9);
+}
+
+.article-screen-list .article-section-caption + .screen-list,
+.article-screen-list .screen-list + .article-section-caption {
+  @include last;  
 }
 
 .article-screen-large .screen {
