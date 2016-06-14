@@ -5,14 +5,8 @@
   .article-link {
     color: $primary-color;
   }
-
   .screen {
-    position: relative;
-  }
-
-  .screen::before {
-    background: $primary-color;
-    transform: rotate(4deg) scale(0.9) skew(-4deg);
+    background-image: image-url("home/fisdom_bg.svg");
   }
 }
 

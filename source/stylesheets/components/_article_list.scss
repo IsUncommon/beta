@@ -9,18 +9,11 @@
 
   .screen {
     @include span(5);
+    background: transparent image-url("home/myntra_bg.svg") no-repeat top right;
     position: relative;
 
-    &::before {
-      content: "";
-      z-index: -1;
-      display: block;
-      position: absolute;
-      top: -50px;
-      right: 40px;
-      bottom: 40px;
-      left: -40px;
-      border-radius: 40px;
+    .iphone-screen {
+      margin: 6px;
     }
   }
 

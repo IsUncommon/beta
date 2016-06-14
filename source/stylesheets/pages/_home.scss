@@ -1,26 +1,14 @@
 .uncommon-intro {
-  padding-top: 20px;
-  margin-bottom: 100px;
+  margin-top: 10px;
+  padding-top: 10px;
+  margin-bottom: 40px;
+  background: transparent image-url("home/banner_bg.svg") no-repeat top center;
   
   .content {
     display: block;
     position: relative;
     padding: 180px 269px;
     color: $white;
-
-    &::before {
-      content: "";
-      display: block;
-      position: absolute;
-      top: 0px;
-      right: 0;
-      bottom: 0px;
-      left: 0;
-      z-index: -1;
-      background: $black;
-      border-radius: 20px;
-      transform: rotate(5deg) scale(0.913) skew(12deg);
-    }
 
     a {
       color: tomato;

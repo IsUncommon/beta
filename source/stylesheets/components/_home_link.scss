@@ -3,11 +3,12 @@
   position: relative;
   margin: 0;
   padding: 0;
-  @include container;
   height: 0;
   z-index: 10;
+  @include container;
 
   a {
+    margin-left: 5%;
     padding: 16px 48px;
     display: block;
     float: left;
