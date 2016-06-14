@@ -1,0 +1,64 @@
+.article-listitem {
+  display: block;
+  clear: both;
+  padding-top: 40px;
+
+  .text {
+    @include span(7);
+  }
+
+  .screen {
+    @include span(5);
+    position: relative;
+
+    &::before {
+      content: "";
+      z-index: -1;
+      display: block;
+      position: absolute;
+      top: -50px;
+      right: 40px;
+      bottom: 40px;
+      left: -40px;
+      border-radius: 40px;
+    }
+  }
+
+  .screen + .text,
+  .text + .screen {
+    @include last;
+  }
+
+  .text {
+    padding-top: 12%;
+  }
+
+  &.article-listitem-mysmartprice {
+    .text {
+      @include span(5);
+    }
+
+    .screen {
+      @include span(7);
+    }
+  }
+
+  h3 {
+    text-transform: uppercase;
+    font-size: 14px;
+  }
+
+  h2 {
+    font-weight: 600;
+    font-size: 36px;
+    margin: 16px 0;
+  }
+
+  .article-link {
+    display: inline-block;
+    font-size: 18px;
+    text-decoration: none;
+    border-bottom: solid 1px;
+  }
+}
+

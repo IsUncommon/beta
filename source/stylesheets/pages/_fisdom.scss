@@ -1,3 +1,21 @@
+.article-listitem-fisdom {
+  $primary-color: $blue-with-a-hint-of-purple;
+
+  h3,
+  .article-link {
+    color: $primary-color;
+  }
+
+  .screen {
+    position: relative;
+  }
+
+  .screen::before {
+    background: $primary-color;
+    transform: rotate(4deg) scale(0.9) skew(-4deg);
+  }
+}
+
 body.helping_fisdom {
   background: $gray-xdark;
 

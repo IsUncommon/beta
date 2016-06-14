@@ -1,31 +1,13 @@
-.article-listitem-myntra {
-  $primary-color: $teal-blue;
-
-  h3,
-  .article-link {
-    color: $primary-color;
-  }
-
-  .screen {
-    position: relative;
-  }
-
-  .screen::before {
-    background: $primary-color;
-    transform: rotate(-5deg) scale(0.913) skew(-12deg);
-  }
-}
-
-.helping_myntra #home-link a::before {
-  background: $orange-yellow;
+.helping_mysmartprice #home-link a::before {
+  background: $red-pink;
 }
 
 
-.case-study-myntra {
-  $primary-color: $orange-yellow;
+.case-study-mysmartprice {
+  $primary-color: $red-pink;
 
   .hero-section {
-    background-image: image-url("myntra/hero.jpg");
+    background-image: image-url("mysmartprice/hero.jpg");
   }
 
   .article-title {
