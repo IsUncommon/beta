@@ -1,7 +1,11 @@
+body.index {
+  line-height: 1.8em;
+}
+
 .uncommon-intro {
   margin-top: 10px;
   padding-top: 10px;
-  margin-bottom: 40px;
+  padding-bottom: 40px;
   background: transparent image-url("home/banner_bg.svg") no-repeat top center;
   
   .content {
@@ -13,5 +17,42 @@
     a {
       color: tomato;
     }
+  }
+}
+
+.about {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  padding: 10% 0 30% 0;
+
+  border-top: solid 1px rgba($black, 0.15);
+  background: transparent image-url("about/team.jpg") no-repeat bottom center;
+  background-size: 100% auto;
+
+  p {
+    @include span(8);
+    @include pre(1);
+  }
+}
+
+.branches {
+  text-align: center;
+  text-transform: lowercase;
+  margin-top: 100px;
+  margin-bottom: 100px;
+
+  h2 {
+    font-size: 24px;
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  li {
+    padding: 0;
+    margin: 0;
   }
 }
