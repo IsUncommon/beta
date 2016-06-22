@@ -3,8 +3,8 @@
   position: relative;
   width: 220px;
   height: 395px;
-  margin: -5px;
-  padding: 50px 0 0 39px;
+  margin: -5px auto;
+  padding: 50px 0 0 6px;
   background: transparent image-url("devices/iphone_small_black.svg") no-repeat top left;
 
   img {
@@ -24,7 +24,7 @@
   width: 402px;
   height: 704px;
   padding: 90px 66px 0 78px;
-  margin: -20px -40px 0 -40px;
+  // margin: -20px -40px 0 -40px;
   background-image: image-url("devices/iphone_large_white.svg");
 
   img {

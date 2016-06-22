@@ -62,6 +62,20 @@
       margin-right: auto;
     }
   }
+
+  @include breakpoint($screen-tablet) {
+    &,
+    .article-screen-list-large & {
+      @include span(12);
+      text-align: center;
+    }
+
+    h2::after {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
 }
 
 .article-screen-list .screen-list {
@@ -80,8 +94,24 @@
 .article-screen-large .screen {
   @include span(7);
 
-  .iphone-screen {
-    float: right;
+  @include breakpoint($over-screen-tablet) {
+    .iphone-screen {
+      float: right;
+    }
   }
+}
+
+@include breakpoint($screen-tablet) {
+  .article-screen-list .screen-list,
+  .article-screen-list-large .screen-list,
+  .article-screen-large .screen {
+    @include span(12);
+  }
+
+  .article-screen-list .article-section-caption + .screen-list,
+  .article-screen-list .screen-list + .article-section-caption {
+    @include first;
+  }
+
 }
 
