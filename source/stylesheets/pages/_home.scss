@@ -1,5 +1,9 @@
 body.index {
   line-height: 1.8em;
+
+  @include breakpoint($screen-tablet) {
+    line-height: 1.4em;
+  }
 }
 
 .uncommon-intro {
@@ -13,8 +17,10 @@ body.index {
     padding-bottom: 24px;
   }
 
-  @include breakpoint($screen-tablet) {
+  @include breakpoint($screen-mobile) {
+    margin-top: 0;
     padding-bottom: 16px;
+    background: $black;
   }
 
   .content {

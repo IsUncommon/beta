@@ -31,6 +31,10 @@
 
   .text {
     padding-top: 12%;
+
+    @include breakpoint($screen-tablet) {
+      padding-top: 0%;
+    }
   }
 
   &.article-listitem-mysmartprice {
