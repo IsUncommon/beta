@@ -12,13 +12,24 @@ h1 {
   font-size: 66px;
   font-weight: 700;
   line-height: 0.9;
-  
+
+  @include breakpoint($screen-tablet) {
+    font-size: 48px;
+  }
+
+  @include breakpoint($screen-stablet) {
+    font-size: 36px;
+  }
 }
 
 h2 {
   font-weight: 600;
   font-size: 21px;
   line-height: 1.2;
+
+  @include breakpoint($screen-tablet) {
+    font-size: 18px;
+  }
 }
 
 p,

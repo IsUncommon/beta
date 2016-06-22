@@ -14,6 +14,25 @@ $susy: (
   )
 );
 
+// Breakpoints
+$screen-xxsmall: max-width 24em;
+$screen-xsmall: max-width 30em;
+$screen-small: max-width 40em;
+$screen-medium: max-width 60em;
+$screen-large: max-width 80em;
+$screen-xlarge: max-width 100em;
+
+$screen-xxsmall-xsmall: 24em 30em;
+$screen-xsmall-small: 30em 40em;
+$screen-small-medium: 40em 60em;
+$screen-medium-large: 60em 80em;
+$screen-large-xlarge: 80em 100em;
+
+$screen-mobile: $screen-xsmall;
+$screen-stablet: $screen-small;
+$screen-tablet: $screen-medium;
+
+
 @include border-box-sizing;
 
 .container,

@@ -11,15 +11,22 @@
     @include span(5);
     background: transparent image-url("home/myntra_bg.svg") no-repeat top right;
     position: relative;
+  }
 
-    .iphone-screen {
-      margin: 6px;
+  .iphone-screen {
+    margin: 6px;
+  }
+
+  &:nth-child(2n) {
+    .text {
+      @include last;
     }
   }
 
-  .screen + .text,
-  .text + .screen {
-    @include last;
+  &:nth-child(2n+1) {
+    .screen {
+      @include last;
+    }
   }
 
   .text {
@@ -45,6 +52,16 @@
     font-weight: 600;
     font-size: 36px;
     margin: 16px 0;
+
+    @include breakpoint($screen-tablet) {
+      font-size: 27px;
+      margin: 12px 0;
+    }
+
+    @include breakpoint($screen-tablet) {
+      font-size: 24px;
+      margin: 8px 0;
+    }
   }
 
   .article-link {
@@ -52,6 +69,24 @@
     font-size: 18px;
     text-decoration: none;
     border-bottom: solid 1px;
+    margin-bottom: 12px;
+  }
+
+  @include breakpoint($screen-tablet) {
+    padding-top: 20px;
+
+    .text {
+      @include span(12);
+    }
+
+    .screen {
+      @include span(12);
+      background-position: top center;
+    }
+
+    .iphone-screen {
+      margin: 6px auto;
+    }
   }
 }
 
