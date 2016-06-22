@@ -4,8 +4,7 @@
   background: $orange-yellow;
   color: $white;
   clear: both;
-  // margin-top: -50px;
-  top: -54px;
+  top: calc(-3vw - 4px);
   z-index: 20;
 
   &::after {
@@ -15,7 +14,7 @@
   li {
     display: block;
     list-style-type: none;
-    margin: 40px 0;
+    margin: 3vw 0;
     padding: 0;
     @include span(3);
     font-size: 14px;
@@ -23,20 +22,26 @@
     text-transform: uppercase;
 
     &:nth-child(4n) {
-      @include span(last 3);
+      @include last;
     }
 
     strong {
-      font-size: 120px;
+      font-size: 10vw;
       font-weight: 600;
       display: block;
       line-height: 1em;
     }
 
     span {
-      font-size: 30px;
+      font-size: 3vw;
       font-weight: 400;
       text-transform: lowercase;
+    }
+
+    @include breakpoint($screen-tablet) {
+      strong {
+        // font-size: ;
+      }
     }
   }
 }
