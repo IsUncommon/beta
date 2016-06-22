@@ -9,17 +9,9 @@ body {
 
 h1 {
   font-family: $serif;
-  font-size: 66px;
+  font-size: 6vw; // 30px
   font-weight: 700;
   line-height: 0.9;
-
-  @include breakpoint($screen-tablet) {
-    font-size: 48px;
-  }
-
-  @include breakpoint($screen-stablet) {
-    font-size: 36px;
-  }
 }
 
 h2 {

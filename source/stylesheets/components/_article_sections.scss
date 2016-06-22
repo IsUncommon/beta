@@ -40,6 +40,10 @@
     margin: 50px 0 50px span(2 wide);
     border-left: solid 60px $black;
     height: 4px;
+
+    @include breakpoint($screen-tablet) {
+      margin: 3vw 0 3vw span(1 wide);
+    }
   }
 
   &::before {
@@ -54,10 +58,18 @@
     display: block;
     height: 8px;
     margin-left: span(3 wide);
+
+    @include breakpoint($screen-tablet) {
+      margin-left: span(1 wide);
+    }
   }
 
   &.article-metadata::after {
     margin-left: span(3 wide);
+
+    @include breakpoint($screen-tablet) {
+      margin-left: span(1 wide);
+    }
   }
 }
 
@@ -68,6 +80,11 @@
 
   &::after {
     margin-left: 0;
+  }
+
+  @include breakpoint($screen-tablet) {
+    @include prefix(1);
+    @include suffix(1);
   }
 }
 
@@ -97,6 +114,10 @@
 
 .article-metadata .content {
   @include prefix(3);
+
+  @include breakpoint($screen-tablet) {
+    @include prefix(1);
+  }
 
   div {
     @include span(3 of 7);

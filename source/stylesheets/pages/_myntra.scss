@@ -25,27 +25,27 @@
 
   .article-title {
     font-family: $sans;
-    font-size: 180px;
+    font-size: 16vw;
     text-transform: uppercase;
     word-spacing: -0.1em;
     letter-spacing: -0.02em;
-    line-height: 96px;
+    line-height: 0.55em;
     margin-top: 18px;
 
     &::first-line {
-      font-size: 120px;
+      font-size: 0.66em;
     }
 
     strong {
       font-weight: 700;
-      font-size: 56px;
+      font-size: 0.5em;
       color: $primary-color;
     }
 
     em {
       font-weight: 400;
       font-family: $serif;
-      font-size: 56px;
+      font-size: 0.5em;
       text-transform: lowercase;
     }
   } 
