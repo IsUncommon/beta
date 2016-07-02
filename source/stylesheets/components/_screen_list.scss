@@ -5,6 +5,11 @@
 
   li {
     display: inline-block;
+
+    @include breakpoint($screen-mobile) {
+      display: block;
+      position: relative;
+    }
   }
 }
 

@@ -52,10 +52,6 @@ body.helping_fisdom {
     line-height: 1.5em;
     font-weight: 400;
     color: $black;
-
-    @include breakpoint($screen-stablet) {
-      display: none;
-    }
   }
 
   .breadcrumbs {
@@ -64,6 +60,22 @@ body.helping_fisdom {
 
   .breadcrumbs a {
     color: $primary-color;
+  }
+
+  @include breakpoint($screen-mobile) {
+    .article-title,
+    .article-subtitle {
+      @include span(12);
+      color: $white;
+    }
+
+    .article-title {
+      font-size: 10vw;
+    }
+
+    .breadcrumbs {
+      color: $white;    
+    }
   }
 
   .article-metadata h2 {
