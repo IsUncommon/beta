@@ -48,6 +48,11 @@
       font-size: 0.5em;
       text-transform: lowercase;
     }
+
+    @include breakpoint($screen-mobile) {
+      font-size: 27vw;
+      padding-bottom: 5vw;
+    }
   } 
 
   .breadcrumbs {
