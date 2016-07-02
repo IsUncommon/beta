@@ -48,4 +48,12 @@
   .article-section-caption h2::after {
     background: $primary-color;
   }
+
+  @include breakpoint($screen-mobile) {
+    .article-title,
+    .article-subtitle {
+      @include span(12);
+      color: $black;
+    }
+  }
 }

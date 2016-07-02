@@ -19,12 +19,17 @@
     right: 0;
     bottom: 0;
     left: 0;
+
+    @include breakpoint($screen-mobile) {
+      position: relative;
+    }
   }
 }
 
 .article-section {
   position: relative;
   clear: both;
+  overflow: hidden;
   
   > .content {
     @include span(12);
@@ -44,6 +49,10 @@
     @include breakpoint($screen-tablet) {
       margin: 3vw 0 3vw span(1 wide);
     }
+
+    @include breakpoint($screen-tablet) {
+      margin-left: 0;
+    }
   }
 
   &::before {
@@ -62,6 +71,10 @@
     @include breakpoint($screen-tablet) {
       margin-left: span(1 wide);
     }
+
+    @include breakpoint($screen-mobile) {
+      margin-left: 0;
+    }
   }
 
   &.article-metadata::after {
@@ -69,6 +82,10 @@
 
     @include breakpoint($screen-tablet) {
       margin-left: span(1 wide);
+    }
+
+    @include breakpoint($screen-mobile) {
+      margin-left: 0;
     }
   }
 }
@@ -85,6 +102,11 @@
   @include breakpoint($screen-tablet) {
     @include prefix(1);
     @include suffix(1);
+  }
+
+  @include breakpoint($screen-tablet) {
+    margin: 0;
+    padding: 0;
   }
 }
 
@@ -119,8 +141,17 @@
     @include prefix(1);
   }
 
+  @include breakpoint($screen-mobile) {
+    @include prefix(0);
+  }
+
   div {
     @include span(3 of 7);
+
+    @include breakpoint($screen-mobile) {
+      @include span(12);
+      margin: 6px 0;
+    }
   }
 
   h2 {

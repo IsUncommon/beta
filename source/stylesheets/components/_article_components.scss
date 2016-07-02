@@ -5,13 +5,16 @@
   font-weight: 600;
   margin: 1vw 0 2vw 0;
 
+  @include breakpoint($screen-mobile) {
+    color: $black;
+    font-size: 12px;
+    font-weight: 700;
+    margin: 16px 0 12px 0;
+  }
+
   a {
     color: $white;
     text-decoration: none;
-
-    @include breakpoint($screen-mobile) {
-      display: block;
-    }
   }
 }
 
