@@ -43,5 +43,5 @@ $over-screen-tablet: min-width $screen-medium;
 .article-header,
 .article-container {
   @include container;
-  padding: 0 gutter(6);
+  padding: 0 16px;
 }
