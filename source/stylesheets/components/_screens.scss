@@ -5,7 +5,7 @@
   height: 395px;
   margin: -5px auto;
   padding: 50px 0 0 6px;
-  background: transparent image-url("devices/iphone_small_black.svg") no-repeat top left;
+  background: transparent image-url("devices/iphone_small_black.png") no-repeat top left;
 
   img {
     height: 260px;
@@ -13,7 +13,7 @@
 }
 
 .iphone-screen-white {
-  background-image: image-url("devices/iphone_small_white.svg");
+  background-image: image-url("devices/iphone_small_white.png");
 
   img {
     border: solid 2px $black;
@@ -24,7 +24,7 @@
   width: 402px;
   height: 704px;
   padding: 90px 66px 0 78px;
-  background-image: image-url("devices/iphone_large_white.svg");
+  background-image: image-url("devices/iphone_large_white.png");
 
   img {
     height: 454px;
