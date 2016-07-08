@@ -53,6 +53,10 @@
       font-size: 24vw;
       padding-bottom: 5vw;
     }
+
+    @include breakpoint($screen-xlarge) {
+      font-size: 14vw;
+    }
   } 
 
   .breadcrumbs {
