@@ -32,6 +32,7 @@ body.helping_fisdom {
     margin-bottom: 0;
     padding: 0;
     font-family: $sans;
+    color: $white;
   }
 
   .article-title {
@@ -40,7 +41,6 @@ body.helping_fisdom {
     font-weight: 800;
     line-height: 1.1;
 
-    color: $black;
     margin-top: 16px;
     margin-bottom: 0;
     padding: 0;
@@ -51,11 +51,10 @@ body.helping_fisdom {
     font-size: 21px;
     line-height: 1.5em;
     font-weight: 400;
-    color: $black;
   }
 
   .breadcrumbs {
-    color: $black;
+    color: $white;
   }
 
   .breadcrumbs a {
