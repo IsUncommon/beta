@@ -63,6 +63,10 @@ body.index {
     background-image: image-url("about/team-mobile.jpg");
   }
 
+  @include breakpoint($over-screen-tablet) {
+    padding: 100px 0 420px 0;
+  }
+
 
   p {
     @include span(8);
