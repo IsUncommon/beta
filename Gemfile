@@ -11,9 +11,9 @@ gem 'tzinfo-data', platforms: [:mswin, :mingw, :jruby]
 # Middleman Gems
 gem 'middleman', '>= 4.1.0'
 gem 'middleman-livereload'
+# gem 'middleman-imageoptim'
 gem 'middleman-deploy', '2.0.0.pre.alpha'
 
-gem 'sassc', "~> 1.9"
+gem 'sassc', "~> 1.10"
 gem 'susy', "~> 2.2"
 gem 'breakpoint', "~> 2.7"
-gem 'bourbon', "~> 4.2"

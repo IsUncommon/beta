@@ -47,6 +47,8 @@ configure :build do
 
   # Enable cache buster
   activate :asset_hash
+  # activate :imageoptim
+
 
   # Use relative URLs
   activate :relative_assets
@@ -57,3 +59,4 @@ activate :deploy do |deploy|
   deploy.deploy_method = :git
   deploy.branch = "gh-pages"
 end
+
