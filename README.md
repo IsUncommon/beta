@@ -1,5 +1,19 @@
 This is a static site built using Middleman, Sass & Susy. 
 
+# Local setup
+
+To install, run this command in the terminal
+
+> bundle install
+
+To run locally
+
+> middleman serve
+
+To deploy to production
+
+> middleman deploy
+
 # Image settings
 
 format: 
