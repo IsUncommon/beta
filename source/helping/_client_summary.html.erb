@@ -1,0 +1,13 @@
+<section class="container article-listitem article-listitem-<%= client %>">
+    <div class="screen">
+      <span class="iphone-screen iphone-screen-large">
+        <%= image_tag "clients/#{client}.jpg" %>      
+      </span>      
+    </div>
+  </div>
+
+  <div class="content">
+    <div class="text">
+      <%= partial "helping/#{client}/summary.html.markdown" %>
+    </div>
+</section>

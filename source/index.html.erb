@@ -11,90 +11,10 @@ title: Uncommon
   </div>
 </section>
 
-<section class="container article-listitem article-listitem-myntra">
-    <div class="screen">
-      <span class="iphone-screen iphone-screen-large">
-        <%= image_tag "myntra/search.jpg" %>      
-      </span>      
-    </div>
-  </div>
+<%= partial "helping/client_summary", locals: {client: "myntra"} %>
+<%= partial "helping/client_summary", locals: {client: "groupon"} %>
+<%= partial "helping/client_summary", locals: {client: "fisdom"} %>
 
-  <div class="content">
-    <div class="text">
-      <h3>Myntra</h3>
-      <h2>Clothes, to go</h2>
-      <p>We shrunk India&rsquo;s largest fashion store to fit in the palm of your hand</p>
-
-      <%= link_to "View case study", 'helping/myntra', class: 'article-link' %>
-    </div>
+<section class="container about">
+  <%= partial "text/about.html.markdown" %>
 </section>
-
-<section class="container article-listitem article-listitem-groupon">
-    <div class="screen">
-      <span class="iphone-screen iphone-screen-large">
-        <%= image_tag "groupon/home.jpg" %>      
-      </span>      
-    </div>
-
-  <div class="content">
-    <div class="text">
-      <h3>Groupon</h3>
-      <h2>Great experiences around you</h2>
-      <p>Uncommon created a simple way for mobile users to find and enjoy great experiences around them.</p>
-
-      <%= link_to "View case study", 'helping/groupon', class: 'article-link' %>
-    </div>
-  </div>
-</section>
-
-<section class="container article-listitem article-listitem-fisdom">
-    <div class="screen">
-      <span class="iphone-screen iphone-screen-large">
-        <%= image_tag "fisdom/investment.jpg" %>      
-      </span>      
-    </div>
-  </div>
-
-  <div class="content">
-    <div class="text">
-      <h3>Fisdom</h3>
-      <h2>Who says investing can&rsquo;t be fun!</h2>
-      <p>We gave Fisdom&rsquo;s Android and iOS apps a fun twist to make it appealing to a young userbase.</p>
-
-      <%= link_to "View case study", 'helping/fisdom', class: 'article-link' %>
-    </div>
-</section>
-
-<!-- 
-<section class="container article-listitem article-listitem-mysmartprice">
-  <div class="content">
-    <div class="text">
-      <h3>MySmartPrice</h3>
-      <h2>Harder, better, faster—smarter.</h2>
-      <p>Having grown from a modest merchandise personalisation business to India&rsquo;s largest online fashion</p>
-
-      <%= link_to "View case study", 'helping/mysmartprice', class: 'article-link' %>
-    </div>
-
-    <div class="screen">
-      <span class="desktop-screen desktop-screen-edge">
-        <%= image_tag "mysmartprice/home_crop.jpg" %>      
-      </span>      
-    </div>
-  </div>
-</section>
- -->
-
- <section class="container about">
-   <p>We all have a reason for showing up every day. Some do it for money. Others out of habit. At uncommon, we show up because we want to make stuff that matters. Simple things. Honest things. Beautiful things. Every day, we want to make things that affect people in positive ways.</p>
- </section>
-
- <footer class="container branches">
-   <h2>uncommon</h2>
-   <ul>
-     <li>Ahmedabad</li>
-     <li>Bangalore</li>
-     <li>Chandigarh</li>
-     <li>Hyderabad</li>
-   </ul>
- </footer>
