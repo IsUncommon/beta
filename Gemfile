@@ -9,11 +9,11 @@ gem 'wdm', '~> 0.1.0', platforms: [:mswin, :mingw]
 gem 'tzinfo-data', platforms: [:mswin, :mingw, :jruby]
 
 # Middleman Gems
-gem 'middleman', '>= 4.1.0'
+gem 'middleman', '>= 4.2.0'
 gem 'middleman-livereload'
 # gem 'middleman-imageoptim'
 gem 'middleman-deploy', '2.0.0.pre.alpha'
 
-gem 'sassc', "~> 1.10"
+gem 'sassc', "~> 1.11"
 gem 'susy', "~> 2.2"
 gem 'breakpoint', "~> 2.7"
