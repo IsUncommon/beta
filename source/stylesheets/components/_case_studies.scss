@@ -1,0 +1,31 @@
+.article-listitem-myntra {
+  h3,
+  a {
+    color: $teal-blue;
+  }
+
+  .screen {
+    background-image: image-url("home/myntra_bg.svg");
+  }
+}
+
+.article-listitem-groupon {
+  h3,
+  a {
+    color: $turtle-green;
+  }
+
+  .screen {
+    background-image: image-url("home/groupon_bg.svg");
+  }
+}
+
+.article-listitem-fisdom {
+  h3,
+  a {
+    color: $blue-with-a-hint-of-purple;
+  }
+  .screen {
+    background-image: image-url("home/fisdom_bg.svg");
+  }
+}

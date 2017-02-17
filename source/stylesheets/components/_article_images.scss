@@ -1,23 +1,23 @@
-.image-fullwidth {
+.article-text img {
   @include span(12);
   margin-top: 8px;
   margin-bottom: 20px;
 
 }
 
-.image-extrawide {
-  display: block;
-  position: relative;
-  width: 120%;
-  margin-left: -10%;
+// .article-text img {
+//   display: block;
+//   position: relative;
+//   width: 120%;
+//   margin-left: -10%;
 
-  @include breakpoint($screen-stablet) {
-    width: 150%;
-    margin-left: -25%;
-  }
+//   @include breakpoint($screen-stablet) {
+//     width: 150%;
+//     margin-left: -25%;
+//   }
 
-  @include breakpoint($screen-mobile) {
-    width: 180%;
-    margin-left: -40%;
-  }
-}
+//   @include breakpoint($screen-mobile) {
+//     width: 180%;
+//     margin-left: -40%;
+//   }
+// }
