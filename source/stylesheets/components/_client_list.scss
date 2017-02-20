@@ -14,13 +14,24 @@
   &-item {
     display: inline-block;
     position: relative;
-    width: 160px;
-    height: 160px;
-    margin: 10px 12px;
+    width: 100px;
+    height: 100px;
+    margin: 5px 6px;
     font-size: 0;
     overflow: hidden;
     line-height: 0;
     border: solid 1px #111;
+
+    @include breakpoint($over-screen-stablet) {
+      width: 120px;
+      height: 120px;
+    }
+
+    @include breakpoint($over-screen-tablet) {
+      width: 160px;
+      height: 160px;
+      margin: 10px 12px;
+    }
 
     img {
       display: block;
