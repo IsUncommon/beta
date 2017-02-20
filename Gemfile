@@ -17,3 +17,5 @@ gem 'middleman-deploy', '2.0.0.pre.alpha'
 gem 'sassc', "~> 1.11"
 gem 'susy', "~> 2.2"
 gem 'breakpoint', "~> 2.7"
+
+gem 'nokogiri'
