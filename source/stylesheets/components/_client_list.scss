@@ -1,9 +1,16 @@
 .client-list {
   margin: 0;
+  margin-top: 100px;
   width: 100%;
   overflow: hidden;
   background: #000;
   text-align: center;
+
+  h2 {
+    color: rgba($white, 0.5);
+    text-transform: lowercase;
+    margin: 40px 0;
+  }
 
   ul {
     margin: 10px;
@@ -21,6 +28,7 @@
     overflow: hidden;
     line-height: 0;
     border: solid 1px #111;
+    overflow: hidden;
 
     @include breakpoint($over-screen-stablet) {
       width: 120px;

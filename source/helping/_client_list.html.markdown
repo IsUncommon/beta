@@ -8,19 +8,19 @@
 * [Simplotel](http://www.simplotel.com)
 * [Myntra](http://www.myntra.com)
 * [LimeRoad](https://www.limeroad.com)
-* [Groupon](https://www.nearbuy.com) now NearBuy
-* [NewsHunt](https://www.newshunt.com) now DailyHunt
+* [Groupon](https://www.nearbuy.com) 
+* [NewsHunt](https://www.newshunt.com) 
 * [Zoomcar](https://www.zoomcar.com)
-* [Zipdial](https://www.twitter.com) acquired by Twitter
+* [Zipdial](https://www.twitter.com) 
 * [MySmartPrice](https://www.mysmartprice.com)
-* [NH7](https://www.insider.com) Insider 
-* [MadStreet](https://www.madstreet.com) Den 
+* [NH7](https://www.insider.com)  
+* [MadStreet](https://www.madstreet.com) 
 * [Burrp](https://www.burrp.com) 
 * [Toppr](https://www.toppr.com) 
-* [Citrus Pay](https://www.citrus.com) acquired by PayU
+* [Citrus Pay](https://www.citrus.com) 
 * [VWO](https://www.vwo.com) 
 * [SlideRule](https://www.sliderule.com) 
-* [Aruba Networks](https://www.aruba.com) acquired by IBM
+* [Aruba Networks](https://www.aruba.com) 
 * [HasGeek](https://www.hasgeek.com) 
 * [Ashoka Changemakers](https://www.ashoka.org) 
-* [KLP](https://www.klp.org.in) The Karnataka Learning Partnership
+* [KLP](https://www.klp.org.in) 
