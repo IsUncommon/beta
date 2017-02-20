@@ -3,6 +3,7 @@
   width: 100%;
   overflow: hidden;
   background: #000;
+  text-align: center;
 
   ul {
     margin: 10px;
@@ -11,12 +12,11 @@
   }
 
   &-item {
-    display: block;
+    display: inline-block;
     position: relative;
     width: 160px;
     height: 160px;
-    float: left;
-    margin: 10px;
+    margin: 10px 12px;
     font-size: 0;
     overflow: hidden;
     line-height: 0;
